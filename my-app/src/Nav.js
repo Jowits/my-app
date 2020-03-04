@@ -2,14 +2,15 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="navWrapper">
-      <span className="headerText">My App</span>
-      <div className="TwirlyPig">
-        <a href="">
-          <img className="App-logo" alt="x" />
-        </a>
-      </div>
-      <span className="normalText">A React App </span>
+    <div
+      style={{ backgroundColor: "#2eb82e", height: "100%" }}
+      className="navWrapper"
+    >
+      <header className="headerText">
+        <h1>
+          <strong>Jowita</strong>
+        </h1>
+      </header>
     </div>
   );
 };

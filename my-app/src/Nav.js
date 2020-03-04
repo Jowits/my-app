@@ -2,11 +2,16 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div
-      style={{ backgroundColor: "#2eb82e", height: "100%" }}
-      className="navWrapper"
-    >
-      <header className="headerText">
+    <div className="navWrapper">
+      <header
+        style={{
+          backgroundColor: "#2eb82e",
+          height: "100%",
+          textAlign: "left",
+          fontSize: "1.8em"
+        }}
+        className="headerText"
+      >
         <h1>
           <strong>Jowita</strong>
         </h1>

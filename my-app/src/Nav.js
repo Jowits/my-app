@@ -13,8 +13,9 @@ const Nav = () => {
         className="headerText"
       >
         <h1>
-          <strong>Jowita</strong>
+          <strong>Jowita the new page</strong>
         </h1>
+          <p>New features</p>
       </header>
     </div>
   );

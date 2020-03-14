@@ -34,6 +34,13 @@ const Nav = () => {
                 textAlign: "centre"
               }}
             >
+            <Dropdown.Item
+                as={Link}
+                to={`/profile/${user.id}`}
+                text="Manage your account"
+              />
+              <Dropdown.Item to={`/add-cat`} as={Link} text="Add cat profile" />
+              <Dropdown.Item onClick={logOut} text="Log out" />
           
             </Dropdown.Menu>
           </Dropdown>

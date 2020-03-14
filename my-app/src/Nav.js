@@ -22,6 +22,10 @@ const Nav = () => {
      {/* <Menu.Item>
        <Input icon="search" placeholder="Search cats..." />
      </Menu.Item> */}
+     <div className="ui item">
+          {" "}
+          {/* <Link to={`/menu`}> Menu </Link>{" "} */}
+        </div>
     
    </div>
 

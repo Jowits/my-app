@@ -18,7 +18,14 @@ const Nav = () => {
           <p>New features</p>
       </header>
     </div>
-  );
+     <div className="right menu">
+     {/* <Menu.Item>
+       <Input icon="search" placeholder="Search cats..." />
+     </Menu.Item> */}
+    
+   </div>
+
+  
 };
 
 export default Nav;

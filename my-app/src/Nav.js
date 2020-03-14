@@ -22,6 +22,22 @@ const Nav = () => {
      {/* <Menu.Item>
        <Input icon="search" placeholder="Search cats..." />
      </Menu.Item> */}
+     <Menu.Item
+          style={{ color: "#FF7F11", fontSize: "1em" }}
+          fixed="right"
+          size="small"
+        >
+          <Dropdown width={2} text="Menu">
+            <Dropdown.Menu
+              style={{
+                fontSize: "0.6em",
+                textAlign: "centre"
+              }}
+            >
+          
+            </Dropdown.Menu>
+          </Dropdown>
+        </Menu.Item>
      <div className="ui item">
           {" "}
           {/* <Link to={`/menu`}> Menu </Link>{" "} */}
